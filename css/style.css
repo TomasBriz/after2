@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+body{
+    background-image: url(https://cdn.andro4all.com/andro4all/2022/04/Fondo-de-pantalla-de-hielo.1669909397.6541.jpg?height=600);
+}
+.navegador{
+    background-color: blue;
+}
+
+.navegador img{
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    padding: 10px;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+}
+.navegador {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: start;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navegador a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    text-align: end;
+    justify-content: end;
+}
+.encabezado{
+    background-image: url(../multimrdia/img/ferreterias-hd-1-1-1.jpg);
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+    text-align: end;
+}
+.encabezado h1{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+.producto{
+    width: 270px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.producto img{
+    width: 100%;
+    object-fit: cover;
+}
+.producto h5{
+    font-size: 20px;
+}
+.producto button{
+    background-color: blue;
+    color: white;
+    padding: 10px 40px;
+}
+.pie-de-pagina{
+    background-color: blue;
+    color: white;
+    display: flex;
+}
+.pie-de-pagina .info-empresa{
+    width: 300px;
+    padding: 15px;
+}
+.pie-de-pagina .info-contacto{
+    width: 300px;
+    text-align: center;
+}
+.pie-de-pagina .redes{
+    font-size: 40px;
+    width: 100%;
+    text-align: end;
+    padding: 20px;
+    position: sticky;
+}
+.form-registro {
+    border: 5px solid blue;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.form-registro button{
+    background-color: blue;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: start;
+}
