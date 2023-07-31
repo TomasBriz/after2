@@ -5,12 +5,18 @@
     color: aliceblue;
 }
 body{
-    background-image: url(https://cdn.andro4all.com/andro4all/2022/04/Fondo-de-pantalla-de-hielo.1669909397.6541.jpg?height=600);
+    background-image: url(https://img.freepik.com/premium-photo/grungy-textured-blank-surface-abstract-grey-background-dirty-poster-wallpaper-with-rough-grained-sto_124507-10829.jpg);
 }
 .navegador{
     background-color: blue;
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: start;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
 }
-
 .navegador img{
     width: 64px;
     height: 64px;
@@ -21,15 +27,10 @@ nav {
     display: flex;
     flex-direction: column;
 }
-.navegador {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: start;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
+.derecha {
+    justify-content: end;
 }
+
 
 .navegador a{
     color: white;
@@ -41,23 +42,39 @@ nav {
     justify-content: end;
 }
 .encabezado{
-    background-image: url(../multimrdia/img/ferreterias-hd-1-1-1.jpg);
+    background-image: url(https://almarcontainergroup.com/wp-content/uploads/2019/06/low-cost-container-housing-feature.jpg);
     height: 450px;
     width: 100%;
     background-size: cover;
-    text-align: end;
+    text-align: center;
 }
 .encabezado h1{
     font-size: 40px;
     color: white;
     font-weight: bold;
+    text-align: start;
+    margin: 0px 10px;
+    padding: 10px;
+    background-color: rgba(34, 34, 34, 0.404);
+    width: 30%;
+    border-radius: 10px;
 }
+.encabezado p {
+    margin: 0px 10px;
+    padding: 10px;
+    text-align: start;
+    background-color: rgba(34, 34, 34, 0.404);
+    width: 30%;
+    border-radius: 10px;
+}
+
 .producto{
     width: 270px;
-    border: 1px solid black;
-    margin: 10px;
+    margin: 30px;
     padding: 10px;
     border-radius: 20px;
+    background-color: rgba(181, 211, 238, 0.219);
+    color: black;
 }
 .producto img{
     width: 100%;
@@ -65,11 +82,17 @@ nav {
 }
 .producto h5{
     font-size: 20px;
+    color: black;
+}
+.producto p{
+    color: black;
 }
 .producto button{
     background-color: blue;
     color: white;
     padding: 10px 40px;
+    justify-content: center;
+    margin: 10px;
 }
 .pie-de-pagina{
     background-color: blue;
@@ -110,4 +133,7 @@ nav {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: start;
+}
+.col3 {
+    margin: 0px;
 }
