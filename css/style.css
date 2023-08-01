@@ -5,7 +5,7 @@
     color: aliceblue;
 }
 body{
-    background-image: url(https://img.freepik.com/premium-photo/grungy-textured-blank-surface-abstract-grey-background-dirty-poster-wallpaper-with-rough-grained-sto_124507-10829.jpg);
+    background-image: url(https://t3.ftcdn.net/jpg/00/86/56/12/360_F_86561234_8HJdzg2iBlPap18K38mbyetKfdw1oNrm.jpg);
 }
 .navegador{
     background-color: blue;
@@ -88,12 +88,18 @@ nav {
     color: black;
 }
 .producto button{
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.116);
     color: white;
     padding: 10px 40px;
-    justify-content: center;
     margin: 10px;
+    align-items: end;
+    &:hover {
+        background-color: rgb(23, 3, 202);
+    }
+    border-radius: 10px;
+    font-size: 20px;
 }
+
 .pie-de-pagina{
     background-color: blue;
     color: white;
@@ -134,6 +140,26 @@ nav {
     justify-content: space-evenly;
     align-items: start;
 }
-.col3 {
+.col-md {
+    box-sizing: border-box;
+    object-fit: cover;
+    height: 300px;
+    align-items: center;
+    margin: 30px 0px;
+    padding: 0px;
+
+}
+.col-lg-4 {
     margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    object-fit: cover;
+    height: 300px;
+}
+.negro{
+    background-image: url(https://img.freepik.com/foto-gratis/viejo-fondo-negro-textura-grunge-papel-tapiz-oscuro-pizarra-pizarra-pared-habitacion_1258-28313.jpg);
+}
+.formulario1 {
+    margin: 30px;
+    padding: 30px;
 }
